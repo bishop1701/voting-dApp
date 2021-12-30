@@ -4,7 +4,7 @@ import SmartContract from "../../contracts/SmartContract.json";
 
 import NavigationAdmin from '../NavigationAdmin';
 import Navigation from '../Navigation';
-import {Button} from '../button.style.js'
+import {ButtonStyle, LinkStyle} from '../styles'
 
 class Home extends Component {
   constructor(props){

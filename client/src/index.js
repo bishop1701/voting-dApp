@@ -5,6 +5,7 @@ import history from './history';
 import {Router, Switch, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
 import AddCandidate from './components/AddCandidate';
+import {ButtonStyle, LinkStyle} from './components/styles'
 // import CandidateDetails from './components/CandidateDetails';
 // import RequestVoter from './componenets/RequestVoter';
 // import VerifyVoter from './components/VerifyVoter';

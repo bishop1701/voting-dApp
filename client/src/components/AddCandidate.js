@@ -5,7 +5,7 @@ import getWeb3 from "../getWeb3";
 import {FormGroup, FormControl, Button, Alert} from 'react-bootstrap';
 import NavigationAdmin from "./NavigationAdmin";
 import Navigation from "./Navigation";
-import {ButtonStyle} from "./button.style"
+import {ButtonStyle} from "./styles";
 
 class AddCandidate extends Component{
     constructor(props){
@@ -148,9 +148,9 @@ class AddCandidate extends Component{
                             onChange={this.updateParty} />
                         </div>
                     </FormGroup>
-                    <Button onClick={this.addCandidate} className="button-vote">
+                    <ButtonStyle onClick={this.addCandidate} className="button-vote">
                         Add
-                    </Button>
+                    </ButtonStyle>
                 </div>
             </div>
         )

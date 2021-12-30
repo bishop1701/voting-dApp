@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import {LinkStyle} from './styles'
 
 class NavigationAdmin extends Component{
     render(){
         return(
             <div className='navbar'>
-                <Link to ='/' className='heading'>HOME</Link>
-                <Link to='/CandidateDetails'>CANDIDATES</Link>
-                <Link to='/RequestVoter'>APPLY FOR VOTER</Link>
-                <Link to='/Vote'>VOTE</Link>
-                <Link to='/VerifyVoter'>VERIFY VOTER</Link>
-                <Link to='/AddCandidate'>ADD CANDIDATE</Link>
-                <Link to='/Result'>RESULTS</Link>
-                <Link to='Admin'>START/END</Link>
+                <LinkStyle to ='/' className='heading'>HOME</LinkStyle>
+                <LinkStyle to='/CandidateDetails'>CANDIDATES</LinkStyle>
+                <LinkStyle to='/RequestVoter'>APPLY FOR VOTER</LinkStyle>
+                <LinkStyle to='/Vote'>VOTE</LinkStyle>
+                <LinkStyle to='/VerifyVoter'>VERIFY VOTER</LinkStyle>
+                <LinkStyle to='/AddCandidate'>ADD CANDIDATE</LinkStyle>
+                <LinkStyle to='/Result'>RESULTS</LinkStyle>
+                <LinkStyle to='Admin'>START/END</LinkStyle>
             </div>
         )
     }
